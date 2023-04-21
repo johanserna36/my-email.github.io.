@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>My first Email</title>
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+      </head>
+
+      <body>
+        <main>
+           <div style="display: flex" >
+            <label><label for="name">Name:</label>
+            <input id="name" type="text" name="name" />
+           </div>
+           <div style="display: flex;">
+            <label><label for="email">Email:</label>
+            <input id="email" type="text" name="email"/>
+           </div>
+           <div>
+            <label for="fonts">Choose a font:</label>
+            <select name="fonts" id="fonts" size="1">
+              <option value="arial">Arial</option>
+              <option value="times">Times New Roman</option>
+              <option value="comicsans">Comic Sans</option>
+              <option value="papyrus">Papyrus</option>
+            </select>
+          </div>
+<form>
+    <h3>Your Message</h3>
+    <textarea 
+    id="form-message"
+     name="message"
+     autofocus="on"
+     required
+     maxlength="200"
+     placeholder="How can I help you?"
+    ></textarea>
+</form>
+<form>
+    
+        
+        <button type="submit">Submit</button>
+        
+      
+</form>
+           
+        
+            
+           
+                
+        </main>
+
+
+      </body>
+
+</html>
